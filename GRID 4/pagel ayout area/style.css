@@ -1,0 +1,24 @@
+.layout{
+    height: 100%;
+    display: grid ;
+    grid-template: 50px auto 50px/200px auto 200px;
+    grid-template-areas:
+    "h h h"
+    "s c a"
+    "f f f";
+}
+.layout header {
+    grid-area: h;
+}
+.layout footer{
+    grid-area: f;
+}
+.layout aside{
+    grid-area: s;
+}
+.layout .r-sidebar {
+    grid-area: a;
+}
+.layout main {
+    grid-area: c;
+}

@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+}
+.layout{
+    background: lightblue;
+
+}
+
+header{
+    background: lightgreen;
+}
+
+footer{
+    background: tomato;
+
+}
+aside{
+    background-color: lightgrey ;
+}
+main{
+    background:lightpink ;
+}
+
+.layout * {
+    border: 1px solid black;
+
+}
